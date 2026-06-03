@@ -31,7 +31,7 @@ export default function HomePage() {
         {/* Light warm tint + text legibility overlay */}
         <div className="absolute inset-0 bg-walnut-darker/30" />
         <div className="relative max-w-7xl mx-auto px-6 py-40 flex flex-col items-center text-center gap-6">
-          <p className="text-sm uppercase tracking-[0.3em] text-white font-medium drop-shadow-md">Men's &amp; Kids Fashion · Lakeland, FL</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-white font-medium drop-shadow-md">{"Men's & Kids Fashion — Lakeland, FL"}</p>
           <h1 className="font-serif text-5xl md:text-7xl leading-tight">
             The Finest<br />Collection
           </h1>
@@ -59,7 +59,7 @@ export default function HomePage() {
       <section className="relative text-cream" style={woodBg}>
         <div className="bg-walnut-darker/50">
           <div className="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-center gap-8 text-center">
-            {["Prom", "Weddings", "Church", "Quinceañeras", "Black Tie Events"].map((occasion) => (
+            {["Prom", "Weddings", "Church", "Quinceaneras", "Black Tie Events"].map((occasion) => (
               <span key={occasion} className="text-xs uppercase tracking-widest text-cream/80">{occasion}</span>
             ))}
           </div>
@@ -126,13 +126,13 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto px-6 text-center">
             <p className="text-xs uppercase tracking-widest text-walnut-light mb-2">Come See Us</p>
             <h2 className="font-serif text-3xl text-cream mb-4">Find Us in Lakeland Square Mall</h2>
-            <p className="text-cream/70 mb-2">3800 US Hwy 98 N, Suite 320 · Lakeland, FL 33809</p>
+            <p className="text-cream/70 mb-2">3800 US Hwy 98 N, Suite 320 &mdash; Lakeland, FL 33809</p>
             <a href="tel:8638154677" className="text-walnut-light font-medium hover:text-cream transition-colors">
               (863) 815-4677
             </a>
             <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-cream/60">
-              <span>Mon – Sat: 11 AM – 8 PM</span>
-              <span>Sun: Noon – 6 PM</span>
+              <span>Mon - Sat: 11 AM - 8 PM</span>
+              <span>Sun: Noon - 6 PM</span>
             </div>
           </div>
         </div>

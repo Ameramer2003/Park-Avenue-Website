@@ -2,13 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 const hours = [
-  { day: "Monday", time: "11 AM – 8 PM" },
-  { day: "Tuesday", time: "11 AM – 8 PM" },
-  { day: "Wednesday", time: "11 AM – 8 PM" },
-  { day: "Thursday", time: "11 AM – 8 PM" },
-  { day: "Friday", time: "11 AM – 8 PM" },
-  { day: "Saturday", time: "11 AM – 8 PM" },
-  { day: "Sunday", time: "Noon – 6 PM" },
+  { day: "Monday", time: "11 AM - 8 PM" },
+  { day: "Tuesday", time: "11 AM - 8 PM" },
+  { day: "Wednesday", time: "11 AM - 8 PM" },
+  { day: "Thursday", time: "11 AM - 8 PM" },
+  { day: "Friday", time: "11 AM - 8 PM" },
+  { day: "Saturday", time: "11 AM - 8 PM" },
+  { day: "Sunday", time: "Noon - 6 PM" },
 ];
 
 export default function Footer() {
@@ -66,7 +66,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 px-6 py-4 max-w-7xl mx-auto">
           <p className="text-xs text-white/30 text-center">
-            © {new Date().getFullYear()} Park Avenue. All rights reserved. · Lakeland Square Mall
+            &copy; {new Date().getFullYear()} Park Avenue. All rights reserved. &mdash; Lakeland Square Mall
           </p>
         </div>
       </div>
